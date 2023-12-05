@@ -1,4 +1,48 @@
- .img-logo{
-  height: 16rem;
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  position: relative;
+  height: 10rem;
+  }
+
+header .logo{
+  margin-top: -15px;
+}
+
+.img-logo {  
+  flex: 1;
+  height: 20rem;
+}
+
+header nav {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
   
+}
+
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+header .redes-sociais{
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+header .redes-sociais div {
+  margin-right: 3rem;
 }

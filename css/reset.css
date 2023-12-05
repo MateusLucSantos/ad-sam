@@ -4,7 +4,9 @@
   border: 0;
   font-size: 32,5%;
   font: inherit;
+  color: black;
   vertical-align: baseline;
+  text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article,
